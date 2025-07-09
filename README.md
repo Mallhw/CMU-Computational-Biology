@@ -30,6 +30,8 @@ Each of the folders contain the different coding parts of each section.
   * This folder is specific for the hackathon projects (listed above in sections)
 - Fun
   * This folder is for the fun (extra information/code along) an any coding for the lab specifically.
+- Lectures
+  * This folder contains code/pdfs from lecturers that came to CMU
 
 
 Created by Matthew Li (2025)
