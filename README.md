@@ -12,12 +12,21 @@ Hackathons are run by Phillip Compeau in the mournings. Topics are below:
 5. Xenophon
 
 Labs are run by Josh Kangas in the evenings. Topics learned are:
-1. Sequencing DNA & RNA
-2. Growing bacteria
-3. Assisted Liquid Handling Machines
-4. New Genetic Sequencing
-5. Sanger Method
-6. Gassuain Process
+1. Pipetting
+2. Bacterial Isolation
+3. DNA Extraction from Water Sample
+4. DNA Extraction from Soil Sample
+5. Bacterial Isolation and Culture
+6. Whole Genome Sequencing and Glycerol Stocks
+7. Sequencing DNA & RNA
+8. Growing bacteria
+9. Liquid Handling Robots
+10. DNA PCR
+11. Antibiotic Resistance Assesment
+12. Transfection
+13. New Genetic Sequencing
+14. Sanger Method
+15. Gassuain Process
 
 ## Folders
 Each of the folders contain the different coding parts of each section. 
