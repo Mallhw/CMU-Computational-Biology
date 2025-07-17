@@ -1,0 +1,11 @@
+streamlit>=1.46.0
+opencv-python
+scikit-image
+scikit-learn
+pandas
+matplotlib
+seaborn
+plotly
+numpy
+scipy
+Pillow 
