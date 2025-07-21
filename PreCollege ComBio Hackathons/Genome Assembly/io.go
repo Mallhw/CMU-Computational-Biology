@@ -267,30 +267,3 @@ func WriteContigsToFileFASTA(contigs []string, outFilename string) {
 	}
 	outFile.Close()
 }
-
-// WriteMultipleAlignment writes the multiple alignment to a file.
-func WriteMultipleAlignment(a Alignment, filename string) {
-	// open the file for writing
-	file, err := OpenFile(filename, "w")
-	if err != nil {
-		panic("Could not open file for writing: " + err.Error())
-	}
-	defer file.Close()
-	// write each row of the alignment to the file
-	for _, row := range a {
-		_, err := file.WriteString(row + "\n")
-		if err != nil {
-			panic("Could not write to file: " + err.Error())
-		}
-	}
-}
-
-// OpenFile is a helper function to open a file with the given name and mode.
-func OpenFile(filename string, mode string) (*os.File, error) {
-	if mode == "w" {
-		return os.Create(filename) // create a new file or truncate existing one
-	} else if mode == "r" {
-		return os.Open(filename) // open an existing file for reading
-	}
-	return nil, fmt.Errorf("unsupported mode: %s", mode)
-}
